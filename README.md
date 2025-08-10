@@ -1,87 +1,30 @@
-# Welcome to React Router!
+# ResumeForge AI
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A modern, AI-powered resume evaluator that lets users upload their resumes and receive actionable feedback and ratings instantly.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Demo
+Access the live demo here: [ResumeForge AI](https://resume-forge-ai-wcll.vercel.app/)  
+The platform presents a simple interface inviting users to **upload their first resume** to receive insights and ratings :contentReference[oaicite:1]{index=1}.
 
 ## Features
+- **Upload Your Resume** – Easily upload your document to start the evaluation.
+- **Real-Time Feedback** – Receive instant feedback on your resume’s content, structure, and alignment with industry standards.
+- **User-Friendly Interface** – Streamlined design focused on UX and clarity.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## Tech Stack
+- Frontend: React, (Next.js/Vite) — your actual framework
+- Styles: Tailwind CSS (if used)
+- AI & Feedback Engine: (mention AI models or backend tech)
+- Hosting/Deployment: Vercel
 
 ## Getting Started
 
+### Prerequisites
+- Node.js (version X or higher)
+- npm or yarn
+
 ### Installation
-
-Install the dependencies:
-
 ```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+git clone https://github.com/your-username/ResumeForge-AI.git
+cd ResumeForge-AI
+npm install  # or yarn install

@@ -4,7 +4,7 @@ A modern, AI-powered resume evaluator that lets users upload their resumes and r
 
 ## Demo
 Access the live demo here: [ResumeForge AI](https://resume-forge-ai-wcll.vercel.app/)  
-The platform presents a simple interface inviting users to **upload their first resume** to receive insights and ratings :contentReference[oaicite:1]{index=1}.
+The platform presents a simple interface inviting users to **upload their first resume** to receive insights and ratings .
 
 ## Features
 - **Upload Your Resume** – Easily upload your document to start the evaluation.
@@ -12,15 +12,15 @@ The platform presents a simple interface inviting users to **upload their first 
 - **User-Friendly Interface** – Streamlined design focused on UX and clarity.
 
 ## Tech Stack
-- Frontend: React, (Next.js/Vite) — your actual framework
-- Styles: Tailwind CSS (if used)
-- AI & Feedback Engine: (mention AI models or backend tech)
+- Frontend: React, (Vite)
+- Styles: Tailwind CSS 
+- AI & Feedback Engine: Puter.js(claude-sonnet-3.7)
 - Hosting/Deployment: Vercel
 
 ## Getting Started
 
 ### Prerequisites
-- Node.js (version X or higher)
+- Node.js 
 - npm or yarn
 
 ### Installation
